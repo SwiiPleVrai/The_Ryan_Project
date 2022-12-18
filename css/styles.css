@@ -1,0 +1,227 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    top: flex;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+nav {
+    background-color: #181818;
+    padding: 15px;
+    height: 5%;
+    margin-top: -1%;
+    margin-left:-8px;
+    margin-right:-8px;
+    display: flex;
+    flex-direction: column;
+}
+nav.menu-nav ul li.btn{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav.menu-nav ul li.btn a{
+    color: white;
+
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+nav.menu-nav ul li.btn:hover a{
+    transition: 0.5s all;
+    position: relative;
+    border-bottom: 2px solid white;
+    
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #101010;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+
+}
+
+a:visited{
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+div.logo{
+    margin-top: -3%;
+    margin-left: 50%;
+}
+
+section{
+    background-color: #101010;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -20px;
+    margin-bottom: -50px;
+}
+
+div.tableau{
+    margin-left: 35%;
+    margin-top: -35%;
+    display: flex;
+}
+
+div.tableau2{
+    margin-left: 35%;
+    margin-top: -35%;
+    display: flex;
+}
+
+div.voiture{
+    margin-top: 1%;
+}
+
+th{
+    color:#A2A2A2;
+}
+
+div.leclerc{
+    margin-top: 10%;
+}
+
+div.sainz{
+    margin-top: 10%;
+}
+
+div.complement{
+    color:#101010;
+    visibility: hidden;
+}
+
+
+/*F40*/
+
+section.f40_intro{
+    background-color: #660708;
+    margin-left: -8px;
+    margin-right: -8px;
+   margin-top: -20px;
+    margin-bottom: -8px;
+}
+section.histoire{
+    background-color: #660708;
+    margin-left: -8px;
+    margin-right: -8px;
+   margin-top: -20px;
+    margin-bottom: -8px;
+}
+
+
+body.f40_body{
+    background-color: #181818;
+}
+
+
+section h1{
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+section h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+section p{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 15px;
+}
+
+
+div.sketchfab-embed-wrapper{
+    text-align: center;
+    
+}
+
+
+p.tech{
+    
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+div.versions{
+    color: white;
+    font-family: sans-serif;
+
+}
+
+h2.titre{
+    font-size: 50px;
+    text-align:center;
+    color: white;
+    font-family: sans-serif;
+}
+
+div.versions img{
+    width: 30%;
+}
+
+div.versions div{
+    text-align:center;
+}
+
+/* FORMULAIRE */
+
+body.form_body{
+    background-color: #660708;
+}
+
+section.form{
+    background-color: #181818;
+    color: white;
+}
+
+form{
+    text-align: center;
+}
+
+
+input.commentaire {
+    height:200px;
+    width:300px;
+    text-align: justify;
+    border: solid;
+}
+
+@media (min-width:900px){
+    html{
+        height:100vh;
+    }   
+    #myVideo {
+        padding: auto;
+    }
+    div.complement{
+        overflow: hidden;
+    }
+    
+}
